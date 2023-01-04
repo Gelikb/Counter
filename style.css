@@ -28,7 +28,7 @@ h1{
     height: 48px;
     margin-top: -70px;
 }
-.btn-decrease {
+.btn {
     color: #222;
     text-decoration: none;
     display: inline-block;
@@ -47,57 +47,9 @@ h1{
     transition: .3s;
 }
 
-.btn-decrease:hover {
+.btn:hover {
     background-color: #222;
     color: white;
     box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
 
-}
-.btn-reset {
-    color: #222;
-    text-decoration: none;
-    display: inline-block;
-    width: 160px;
-    height: 35px;
-    line-height: 5px;
-    border-radius: 15px;
-    margin: 10px 20px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-weight: 600;
-    background: #f1f5f8;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
-    transition: .3s;
-}
-
-.btn-reset:hover {
-    background-color: #222;
-    color: white;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
-}
-.btn-increase {
-    color: #222;
-    text-decoration: none;
-    display: inline-block;
-    width: 160px;
-    height: 35px;
-    line-height: 5px;
-    border-radius: 15px;
-    margin: 10px 20px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-weight: 600;
-    background: #f1f5f8;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
-    transition: .3s;
-}
-
-.btn-increase:hover {
-    background-color: #222;
-    color: white;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
 }
