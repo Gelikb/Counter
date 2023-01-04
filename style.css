@@ -1,0 +1,103 @@
+main{
+    min-height: 600px;
+    display: grid;
+    place-items: center;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #102a42;
+    background: #f1f5f8;
+    font-size: 34px;
+}
+.container{
+    text-align: center;
+    margin-top: 150px;
+
+}
+h1{
+    margin-bottom: -10px;
+}
+
+#value{
+    font-size: 90px;
+}
+.button-containers{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    height: 48px;
+    margin-top: -70px;
+}
+.btn-decrease {
+    color: #222;
+    text-decoration: none;
+    display: inline-block;
+    width: 160px;
+    height: 35px;
+    line-height: 5px;
+    border-radius: 15px;
+    margin: 10px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    background: #f1f5f8;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+
+.btn-decrease:hover {
+    background-color: #222;
+    color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+
+}
+.btn-reset {
+    color: #222;
+    text-decoration: none;
+    display: inline-block;
+    width: 160px;
+    height: 35px;
+    line-height: 5px;
+    border-radius: 15px;
+    margin: 10px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    background: #f1f5f8;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+
+.btn-reset:hover {
+    background-color: #222;
+    color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+}
+.btn-increase {
+    color: #222;
+    text-decoration: none;
+    display: inline-block;
+    width: 160px;
+    height: 35px;
+    line-height: 5px;
+    border-radius: 15px;
+    margin: 10px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    background: #f1f5f8;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+
+.btn-increase:hover {
+    background-color: #222;
+    color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+}
